@@ -1,5 +1,5 @@
 html{height:100%;}
-*{font-family: "Trebuchet MS", Helvetica, sans-serif; color : #6a6a6a;}
+html,body,div,h1,h2,h3,h4,h5{font-family: "Trebuchet MS", Helvetica, sans-serif; color : #6a6a6a;}
 body{ font-weight:lighter !important;height:100%;}
 
 .center{text-align: center;}
@@ -31,7 +31,7 @@ textarea{width:500px;margin-left:30%;}
 .api .url{ padding:10px 0px 10px 0px;color:#fff;}
 .api .type{margin:-10px 10px -10px 0px;padding:10px;}
 
-.api.get .url{background: #87D37C;} 
+.api.get .url{background: #87D37C;color:#fff !important;} 
 .api.get .type{background: #00B16A;}
 .api.post .url{background: #59ABE3;} 
 .api.post .type{background: #2980b9;}
