@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="http://cdn.foundation5.zurb.com/foundation.css"/>		
+		<link rel="stylesheet" href="css/app.css"/>		
+		<title> Convert POSTMAN json to Readable Documentation </title>
+	</head>
+
+	<body>		
+		<a href="https://github.com/madhairsilence/postmantodoc"><img style="position: fixed; top: 0; left: 0; border: 0;z-index:999;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
+		<div class="center" id="download-window" style="display:none">
+			<h3>  You API Doc is ready.</h3><a id="download-link"> Download Now</a>
+		</div>
+		<div id="file-upload" class="center">			
+			<br/><br/><br/><br/>
+			<h3 class="center"> POSTMAN json to Documentation  </h3>
+			<h6 class="center"> Convert all your POSTMAN <strong>collection</strong>  in to a readable documentation.   </h6>	<div class="error"> Does not appear to be a Valid POSTMAN json </div>
+			<br/>
+			<input id="apis" type="file" />
+			or
+			<h6> Paste JSON Collection here </h6>
+			<textarea rows="15" placeHolder="Paste JSON here" id="jsonText"> </textarea>
+			<div class="button" id="buildDoc"> Build Documentation </div> 
+		</div>
+		<div id="api-container" style="display:none">
+		</div>
+	</body>
+	<script src="js/lib/jquery.min.js"></script>
+	<script src="js/lib/underscore-min.js"></script>
+	<script src="js/lib/underscore-string.js"></script>
+	<script src="js/lib/html2canvas.min.js"></script>
+	<script src="js/app.js"></script>
+
+	<script>
+		
+	
+	
+	</script>
+
+</html>
