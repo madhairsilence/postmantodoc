@@ -29,13 +29,13 @@ MadDoc = {
 						'<div class="url">  <span class="type"> <%=requests[request].method%> </span> <%= requests[request].url %>  </div>'+
 						'<h4> Headers </h4>'+
 						'<div class="headers"> <% '+
-							'var lines = s.lines(requests[request].headers.trim()); '+
+							'var lines = s.lines(requests[request].headers); '+
 							' for( var l in lines ){'+
 								'lines[l] = "<b>"+lines[l].replace(":","</b>:")+"<br/>";'+
 							'} '+
 						'%>'+
 						'<%= s.wrap(s.replaceAll(lines,",",""),{width : 60, cut : true}) %></div>'+
-						'<% if (requests[request].data.trim() != ""){ %>'+
+						'<% if (requests[request].data != ""){ %>'+
 							'<h4> Sample Data </h4>'+
 							'<h6> <pre class="prettyprint"><%= requests[request].data %> </pre></div>'+
 						'<% } %>'+

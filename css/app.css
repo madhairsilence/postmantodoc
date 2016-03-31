@@ -1,5 +1,5 @@
 html{height:100%;}
-*{font-family: "Trebuchet MS", Helvetica, sans-serif; color : #6a6a6a;}
+body,html,div,h1,h2,h3,h4,h5,h6{font-family: "Trebuchet MS", Helvetica, sans-serif; color : #6a6a6a;}
 body{ font-weight:lighter !important;height:100%;}
 
 .center{text-align: center;}
